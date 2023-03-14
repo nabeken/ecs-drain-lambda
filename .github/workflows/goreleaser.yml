@@ -1,9 +1,9 @@
-name: goreleaser
+name: goreleaser-nabeken
 
 on:
   push:
     tags:
-      - '*'
+      - 'v1.0.6-nabeken'
 
 jobs:
   goreleaser:
